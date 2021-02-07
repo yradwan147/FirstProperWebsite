@@ -1,0 +1,63 @@
+body {
+    background: rgb(136,203,171);
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    margin: 2em 1rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 35em){
+    h1 {
+        font-size: 7em;
+        margin: 2em 4rem 1em;
+    }
+}
+
+h2 {
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+}
+
+h3 {
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+p {
+    line-height: 1.6em;
+    color: #eee;
+}
+
+footer {
+    width:100%;
+    height:30px;
+    margin:0px;
+    position:absolute;
+}
+
+.exampleList {
+    font-size : 1.5em;
+}
+
+.code {
+    background-color : white;
+    color : black;
+    padding : 8px 12px;
+    font-size: 1em;
+    border-radius : 12px;
+    border-style : ridge;
+}
+
+.tab { 
+    margin-left: 40px; 
+}

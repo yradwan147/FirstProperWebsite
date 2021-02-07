@@ -1,0 +1,88 @@
+<!DOCTYPE html lang="en">
+<html>
+
+<header>
+    <title>PHP Introduction</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+</header>
+
+<body>
+    
+    <header>
+        <img src = "assets/NU.png" alt = "NU logo" height = "200">
+        <img src = "assets/PHP.png" alt = "Python" style = "float: right;" height = "200">
+        <h1>PHP Introduction</h1>
+        <h2 style = "text-align: center;">An overview</h2>
+    </header>
+
+    <section>
+        <h3>Founder of PHP and its creation</h3>
+        <p>PHP is a general-purpose scripting language especially suited to web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. 
+            The PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.</p>
+        <p>PHP development began in 1994 when Rasmus Lerdorf wrote several Common Gateway Interface (CGI) programs in C, which he used to maintain his personal homepage. 
+            He extended them to work with web forms and to communicate with databases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
+            PHP/FI could be used to build simple, dynamic web applications. To accelerate bug reporting and improve the code, Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the Usenet discussion group comp.infosystems.www.authoring.cgi on June 8, 1995. 
+            This release already had the basic functionality that PHP has today. This included Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl, but was simpler, more limited and less consistent.</p>
+        <img src = "assets/php creator.jpg" alt = "Creator of Language" style = "float: right; margin-right: 10px;" width = "200">
+    </section>
+
+    <section>
+        <h3>Design Philosophy</h3>
+        <p>Early PHP was not intended to be a new programming language, and grew organically, with Lerdorf noting in retrospect: "I don't know how to stop it, there was never any intent to write a programming language [...] 
+            I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way." A development team began to form and, after months of work and beta testing, officially released PHP/FI 2 in November 1997.
+            The fact that PHP was not originally designed, but instead was developed organically has led to inconsistent naming of functions and inconsistent ordering of their parameters. In some cases, the function names were chosen to match the lower-level libraries which PHP was "wrapping",
+             while in some very early versions of PHP the length of the function names was used internally as a hash function, so names were chosen to improve the distribution of hash values.</p>
+        <h4>PHP even has its own mascot:</h4>
+        <p>The mascot of the PHP project is the elePHPant, a blue elephant with the PHP logo on its side, designed by Vincent Pontier in 1998. "The (PHP) letters were forming the shape of an elephant if viewed in a sideways angle." The elePHPant is sometimes differently colored when in plush toy form.
+            Many variations of this mascot have been made over the years. Only the elePHPants based on the original design by Vincent Pontier are considered official by the community. These are collectible and some of them are extremely rare. </p>
+    </section>
+
+    <section>
+        <h3>Syntax and Semantics</h3>
+        <p>The PHP interpreter only executes PHP code within its delimiters. Anything outside its delimiters is not processed by PHP, although non-PHP text is still subject to control structures described in PHP code. The most common delimiters are <?php to open and ?> to close PHP sections. 
+            The shortened form <? also exists. This short delimiter makes script files less portable, since support for them can be disabled in the local PHP configuration and it is therefore discouraged; there is no recommendation against the echo short tag <?=.
+            Prior to PHP 5.4.0, this short syntax for echo() only works with the short_open_tag configuration setting enabled, while for PHP 5.4.0 and later it is always available. The purpose of all these delimiters is to separate PHP code from non-PHP content, such as JavaScript code or HTML markup.
+        </p>
+        <p>
+            The first form of delimiters, <?php and ?>, in XHTML and other XML documents, creates correctly formed XML processing instructions. 
+            This means that the resulting mixture of PHP code and other markup in the server-side file is itself well-formed XML. 
+        </p>
+        <h4>Any programming language has different statements and PHP is no different. However it has a different form since its mostly web-based:</h4>
+        <ul>
+            <li>Variables are prefixed with a dollar symbol, and a type does not need to be specified in advance.</li>
+            <li>Unlike function and class names, variable names are case sensitive. Both double-quoted ("") and heredoc strings provide the ability to interpolate a variable's value into the string.</li>
+            <li>PHP treats newlines as whitespace in the manner of a free-form language, and statements are terminated by a semicolon.</li>
+            <li>The echo statement is one of several facilities PHP provides to output text.</li>
+            <li>In terms of keywords and language syntax, PHP is similar to the C style syntax. if conditions, for and while loops, and function returns are similar in syntax to languages such as C, C++, C#, Java and Perl.</li>
+            <li>Basic object-oriented programming functionality was added in PHP 3 and improved in PHP 4.</li>
+        </ul>
+        <img src = "assets/php syntax.png" alt = "Language Syntax" style = "float: right; margin-right: 10px;" width = "400" height = "300">
+    </section>
+
+    <section>
+        <h3>Its most popular uses</h3>
+        <span style = "font-size: 1.3em;">
+        <p>PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime.</p>
+        </span>
+        <ol class = "exampleList">
+            <li>Create dynamic web page content or dynamic images used on websites or elsewhere</li>
+            <li>Command-line scripting and client-side graphical user interface (GUI) applications</li>
+            <li>Used with many relational database management systems (RDBMS)</li>
+            <li>Acts primarily as a filter, taking input from a file or stream containing text and/or PHP instructions and outputting another stream of data. Most commonly the output will be HTML</li>
+            <li>Offers a well defined and documented way for writing custom extensions in C or C++</li>
+        </ol>
+        <h4>As of April 2007, over 20 million Internet domains had web services hosted on servers with PHP installed and mod_php was recorded as the most popular Apache HTTP Server module.</h3>
+    </section>
+
+    <section>
+        <img src = "assets/php syntax1.png" alt = "hello world">
+    </section>
+
+    <footer>
+        <p>Amr Magdy</p>
+    </footer>
+
+</body>
+
+</html>

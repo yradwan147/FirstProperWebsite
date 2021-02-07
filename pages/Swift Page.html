@@ -1,0 +1,113 @@
+<!DOCTYPE html lang="en">
+<html>
+
+<header>
+    <title>Swift Introduction</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+</header>
+
+<body>
+    
+    <header>
+        <img src = "assets/NU.png" alt = "NU logo" height = "200">
+        <img src = "assets/Swift.png" alt = "Python" style = "float: right;" height = "200">
+        <h1>Swift Introduction</h1>
+        <h2 style = "text-align: center;">An overview</h2>
+    </header>
+
+    <section>
+        <h3>Founder of Swift and its creation</h3>
+        <p>Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community, first released in 2014.
+            Swift was developed as a replacement for Apple's earlier programming language Objective-C, as Objective-C had been largely unchanged since the early 1980s and lacked modern language features. 
+            Swift works with Apple's Cocoa and Cocoa Touch frameworks, and a key aspect of Swift's design was the ability to interoperate with the huge body of existing Objective-C code developed for Apple products over the previous decades. 
+            It is built with the open source LLVM compiler framework and has been included in Xcode since version 6, released in 2014. On Apple platforms, it uses the Objective-C runtime library which allows C, Objective-C, C++ and Swift code to run within one program. </p>
+        <p>Development of Swift started in July 2010 by Chris Lattner, with the eventual collaboration of many other programmers at Apple.</p>
+        <img src = "assets/swift creator.jpg" alt = "Creator of Language" style = "float: right; margin-right: 10px;" width = "200">
+    </section>
+
+    <section>
+        <h3>Design Philosophy</h3>
+        <p>Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. 
+            Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.</p>
+        <p>Swift code is compiled and optimized to get the most out of modern hardware. The syntax and standard library have been designed based on the guiding principle that the obvious way to write your code should also perform the best. 
+            Its combination of safety and speed make Swift an excellent choice for everything from “Hello, world!” to an entire operating system.
+            Swift combines powerful type inference and pattern matching with a modern, lightweight syntax, allowing complex ideas to be expressed in a clear and concise manner. 
+            As a result, code is not just easier to write, but easier to read and maintain as well.</p>
+        <h4>Swift defines away large classes of common programming errors by adopting modern programming patterns:</h4>
+        <ol>
+            <li>Variables are always initialized before use.</li>
+            <li>Array indices are checked for out-of-bounds errors.</li>
+            <li>Integers are checked for overflow.</li>
+            <li>Optionals ensure that nil values are handled explicitly.</li>
+            <li>Memory is managed automatically.</li>
+            <li>Error handling allows controlled recovery from unexpected failures.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Syntax and Semantics</h3>
+        <p>Swift is an alternative to the Objective-C language that employs modern programming-language theory concepts and strives to present a simpler syntax. During its introduction, it was described simply as "Objective-C without the baggage of C".</p>
+        <p>By default, Swift does not expose pointers and other unsafe accessors, in contrast to Objective-C, which uses pointers pervasively to refer to object instances. 
+            Also, Objective-C's use of a Smalltalk-like syntax for making method calls has been replaced with a dot-notation style and namespace system more familiar to programmers from other common object-oriented (OO) languages like Java or C#. 
+            Swift introduces true named parameters and retains key Objective-C concepts, including protocols, closures and categories, often replacing former syntax with cleaner versions and allowing these concepts to be applied to other language structures, like enumerated types (enums)
+        </p>
+        <h4>Any programming language has different statements and Swift is no different. Its version of these statements are listed as follows:</h4>
+        <ul>
+            <li>the <em>if</em> statement along with <em>else</em> and the language's <em>elif</em> which resembles else if</li>
+            <li style="list-style-type: none;"><div class = "code"> 
+                if condition { <br>
+                <span class = "tab">action1 </span> <br>
+                } else if condition { <br>
+                <span class = "tab">action2 </span> <br>
+                } else { <br>
+                <span class = "tab">action3 </span> <br>
+                }
+            </div></li>
+            <li>the <em>for</em> loop</li>
+            <li style="list-style-type: none;"><div class = "code"> 
+                for value in range { <br>
+                <span class = "tab">i++ </span> <br>
+                }
+            </div></li>
+            <li>the <em>while</em> loop</li>
+            <li style="list-style-type: none;"><div class = "code"> 
+                while (condition) { <br>
+                <span class = "tab">action </span> <br>
+                }
+            </div></li>
+            <li>and many others...</li>
+        </ul>
+        <img src = "assets/swift syntax.jpg" alt = "Language Syntax" style = "float: right; margin-right: 10px;" width = "500" height = "300">
+    </section>
+
+    <section>
+        <h3>Its most popular uses</h3>
+        <span style = "font-size: 1.3em;">
+        <p>The goal of the Swift project is to create the best available language for uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services.</p>
+        <p>It's used in building apps for:</p>
+        </span>
+        <ol class = "exampleList">
+            <li>iOS</li>
+            <li>Mac</li>
+            <li>Apple TV</li>
+            <li>Apple Watch</li>
+        </ol>
+    </section>
+
+    <section>
+        <div class = "code">
+            Xcode Console<br>
+            >>> import Swift
+            print("Hello, World!")<br>
+            Hello World<br>
+        </div>
+    </section>
+
+    <footer>
+        <p>Amr Magdy</p>
+    </footer>
+
+</body>
+
+</html>

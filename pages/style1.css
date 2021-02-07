@@ -1,0 +1,73 @@
+﻿body {
+    background-color: green;
+    margin-left: 10px;
+    background-attachment:fixed;
+    font-family: 'Merriweather', serif;
+    background-image: url('assets/Muted.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+   
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    margin: 2em 1rem;
+    text-align: center;
+    color:#990033;
+}
+
+@media only screen and (min-width: 35em){
+    h1 {
+        font-size: 7em;
+        margin: 2em 4rem 1em;
+    }
+}
+
+h2 {
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color:#003399;
+    text-align:center;
+}
+
+h3 {
+font-size:40px; font-style:italic;color:#990033;
+
+
+    }
+
+h4 {
+	font-size:26px; text-align:center; color:#663300
+}
+
+p {
+font-size:32px; font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif; color:black;
+   }
+
+footer {
+    width:100%;
+    height:30px;
+    margin:0px;
+    position:absolute;
+}
+
+.exampleList {
+    font-size : 1.5em;
+}
+li{
+	font-size:20px; font-family:Arial, Helvetica, sans-serif; color:#003399;
+}
+
+.code {
+    background-color : white;
+    color : black;
+    padding : 8px 12px;
+    font-size: 1em;
+    border-radius : 12px;
+    border-style : ridge;
+}
+
+.tab { 
+    margin-left: 40px; 
+}
